@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Delhi Bus Navigator</string>
+    <string name="ver">Version: 1.0</string>
+    <string name="dev">Developed By: Team Hard Targets</string>
+    <string name="app_about">About Us</string>
+    <string name="app_disclaimer">Disclaimer</string>
+    <string name="action_more">More</string>
+    <string name="action_rate">Rate</string>
+    <string name="action_share">Share</string>
+    <string name="action_about">About Us</string>
+    <string name="action_disclaimer">Disclaimer</string>
+    <string name="action_exit">Exit</string>
+    <string name="title_section1">Find Bus</string>
+    <string name="title_section2">Find Route</string>
+    <string name="title_section3">Find Stop</string>
+    <string name="etSearch">Enter Bus Number</string>
+    <string name="actvSource">Enter Source</string>
+    <string name="actvDestination">Enter Destination</string>
+    <string name="actvStop">Enter Stop</string>
+    <string name="bFind">Find Route</string>
+    <string name="bno">Bus #: </string>
+    <string name="etSource">Source: </string>
+    <string name="etDestination">Destination: </string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="searchSuccess">List of available Bus Routes</string>
+    <string name="searchFail">Sorry! No Direct Bus Route found.</string>
+    <string name="tvList">Bus Stops</string>
+    <string name="dialog_title">Alert</string>
+    <string name="dialog_message">Are you sure you want to quit the application?</string>
+    <string name="yes">Quit</string>
+    <string name="no">Return</string>
+
+</resources>

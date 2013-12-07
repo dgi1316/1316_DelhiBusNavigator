@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        
+        <AutoCompleteTextView
+            android:id="@+id/actvSource"
+	        android:completionThreshold="1"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:hint="@string/actvSource" />
+
+    	<AutoCompleteTextView
+        	android:id="@+id/actvDestination"
+        	android:completionThreshold="1"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:hint="@string/actvDestination" />
+
+    	<Button
+        	android:id="@+id/bFind"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/bFind" />
+    
+    </LinearLayout>
+    
+    <com.google.ads.AdView android:id="@+id/av2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        ads:adUnitId="a152875a56b4164"
+        ads:adSize="BANNER"
+        ads:loadAdOnCreate="true" />
+
+</LinearLayout>

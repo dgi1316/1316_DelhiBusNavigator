@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#669900"
+    tools:context=".SplashActivity" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash"
+        android:paddingTop="100dp"
+        android:layout_gravity="center"
+        android:shadowColor="#99CC00"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="20" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:paddingBottom="50dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:layout_gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#99CC00"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textStyle="bold"
+            android:text="@string/ver"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#99CC00"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="@string/dev"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#99CC00"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="8" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">दिल्ली बस नेविगेटर</string>
+    <string name="ver">संस्करण: 1.0</string>
+    <string name="dev">टीम हार्ड टारगेट द्वारा विकसित</string>
+    <string name="app_about">हमारे बारे में</string>
+    <string name="app_disclaimer">निबंधन और शर्तें</string>
+    <string name="action_more">अधिक</string>
+    <string name="action_rate">रेट करें</string>
+    <string name="action_share">शेयर</string>
+    <string name="action_about">हमारे बारे में</string>
+    <string name="action_disclaimer">निबंधन और शर्तें</string>
+    <string name="action_exit">बाहर जाएं</string>
+    <string name="title_section1">बस</string>
+    <string name="title_section2">रूट</string>
+    <string name="title_section3">स्टॉप</string>
+    <string name="etSearch">बस संख्या दर्ज करें</string>
+    <string name="actvSource">स्रोत दर्ज करें</string>
+    <string name="actvDestination">गंतव्य दर्ज करें</string>
+    <string name="actvStop">बस स्टॉप का नाम दर्ज करें</string>
+    <string name="bFind">रूट का पता लगाएं</string>
+    <string name="bno">बस #: </string>
+    <string name="etSource">स्रोत: </string>
+    <string name="etDestination">गंतव्य: </string>
+    <string name="source">स्रोत</string>
+    <string name="destination">गंतव्य</string>
+    <string name="searchSuccess">उपलब्ध बस रूट की सूच</string>
+    <string name="searchFail">क्षमा करें! सीधा बस रूट नहीं मिला</string>
+    <string name="tvList">बस स्टॉप</string>
+    <string name="dialog_title">चेतावनी</string>
+    <string name="dialog_message">क्या आप बाहर जाना चाहते हैं?</string>
+    <string name="yes">ठीक</string>
+    <string name="no">रद्द करें</string>
+
+</resources>
